@@ -6,28 +6,28 @@
 */
 
 //add buttons for solar display
-$("#solar-intro").append("<button id='solarBtn-economics' class ='button'>Economics</button>");
-$("#solar-intro").append("<button id='solarBtn-challenges' class ='button'>Challenges</button>");
-$("#solar-intro").append("<button id='solarBtn-myths' class ='button'>Myths</button>");
+$("#solar-intro").append("<button id='solarBtn-economics' class ='solarBtn'>Economics</button>");
+$("#solar-intro").append("<button id='solarBtn-challenges' class ='solarBtn'>Challenges</button>");
+$("#solar-intro").append("<button id='solarBtn-myths' class ='solarBtn'>Myths</button>");
 
 //add horizontal rules for solar displays
 $("#solar").find("h3").before("<hr>");
 $("#solar").find("hr").css({"border-color": "#FCC014", "border-width": "1px", "border-style": "solid"});
 
 //add subordinate buttons for the solar economics display
-$("#solar-cost").before("<button id='solarBtn-cost' class ='button'>Cost</button>");
-$("#solarBtn-cost").after("<button id='solarBtn-materials' class ='button'>Materials</button>");
-$("#solarBtn-materials").after("<button id='solarBtn-land' class ='button'>Land</button>");
+$("#solar-cost").before("<button id='solarBtn-cost' class ='solarBtn'>Cost</button>");
+$("#solarBtn-cost").after("<button id='solarBtn-materials' class ='solarBtn'>Materials</button>");
+$("#solarBtn-materials").after("<button id='solarBtn-land' class ='solarBtn'>Land</button>");
 
 //add subordinate buttons for the solar challenges display
-$("#solar-challenge1").before("<button id='solarBtn-challenge1' class ='button'>Challenge1</button>");
-$("#solarBtn-challenge1").after("<button id='solarBtn-challenge2' class ='button'>Challenge2</button>");
-$("#solarBtn-challenge2").after("<button id='solarBtn-challenge3' class ='button'>Challenge3</button>");
+$("#solar-challenge1").before("<button id='solarBtn-challenge1' class ='solarBtn'>Challenge1</button>");
+$("#solarBtn-challenge1").after("<button id='solarBtn-challenge2' class ='solarBtn'>Challenge2</button>");
+$("#solarBtn-challenge2").after("<button id='solarBtn-challenge3' class ='solarBtn'>Challenge3</button>");
 
 //add subordinate buttons for the solar myths display
-$("#solar-myth1").before("<button id='solarBtn-myth1' class ='button'>Myth1</button>");
-$("#solarBtn-myth1").after("<button id='solarBtn-myth2' class ='button'>Myth2</button>");
-$("#solarBtn-myth2").after("<button id='solarBtn-myth3' class ='button'>Myth3</button>");
+$("#solar-myth1").before("<button id='solarBtn-myth1' class ='solarBtn'>Myth1</button>");
+$("#solarBtn-myth1").after("<button id='solarBtn-myth2' class ='solarBtn'>Myth2</button>");
+$("#solarBtn-myth2").after("<button id='solarBtn-myth3' class ='solarBtn'>Myth3</button>");
 
 //toggle button for the solar economics display
 $("#solarBtn-economics").click(function(){
@@ -183,28 +183,28 @@ $("#solarBtn-myth3").click(function(){
 })
 
 //add buttons for wind display
-$("#wind-intro").append("<button id='windBtn-economics' class ='button'>Economics</button>");
-$("#wind-intro").append("<button id='windBtn-challenges' class ='button'>Challenges</button>");
-$("#wind-intro").append("<button id='windBtn-myths' class ='button'>Myths</button>");
+$("#wind-intro").append("<button id='windBtn-economics' class ='windBtn'>Economics</button>");
+$("#wind-intro").append("<button id='windBtn-challenges' class ='windBtn'>Challenges</button>");
+$("#wind-intro").append("<button id='windBtn-myths' class ='windBtn'>Myths</button>");
 
 //add horizontal rules for wind displays
 $("#wind").find("h3").before("<hr>");
 $("#wind").find("hr").css({"border-color": "#446D6B", "border-width": "1px", "border-style": "solid"});
 
 //add subordinate buttons for the wind economics display
-$("#wind-cost").before("<button id='windBtn-cost' class ='button'>Cost</button>");
-$("#windBtn-cost").after("<button id='windBtn-materials' class ='button'>Materials</button>");
-$("#windBtn-materials").after("<button id='windBtn-land' class ='button'>Land</button>");
+$("#wind-cost").before("<button id='windBtn-cost' class ='windBtn'>Cost</button>");
+$("#windBtn-cost").after("<button id='windBtn-materials' class ='windBtn'>Materials</button>");
+$("#windBtn-materials").after("<button id='windBtn-land' class ='windBtn'>Land</button>");
 
 //add subordinate buttons for the wind challenges display
-$("#wind-challenge1").before("<button id='windBtn-challenge1' class ='button'>Challenge1</button>");
-$("#windBtn-challenge1").after("<button id='windBtn-challenge2' class ='button'>Challenge2</button>");
-$("#windBtn-challenge2").after("<button id='windBtn-challenge3' class ='button'>Challenge3</button>");
+$("#wind-challenge1").before("<button id='windBtn-challenge1' class ='windBtn'>Challenge1</button>");
+$("#windBtn-challenge1").after("<button id='windBtn-challenge2' class ='windBtn'>Challenge2</button>");
+$("#windBtn-challenge2").after("<button id='windBtn-challenge3' class ='windBtn'>Challenge3</button>");
 
 //add subordinate buttons for the wind myths display
-$("#wind-myth1").before("<button id='windBtn-myth1' class ='button'>Myth1</button>");
-$("#windBtn-myth1").after("<button id='windBtn-myth2' class ='button'>Myth2</button>");
-$("#windBtn-myth2").after("<button id='windBtn-myth3' class ='button'>Myth3</button>");
+$("#wind-myth1").before("<button id='windBtn-myth1' class ='windBtn'>Myth1</button>");
+$("#windBtn-myth1").after("<button id='windBtn-myth2' class ='windBtn'>Myth2</button>");
+$("#windBtn-myth2").after("<button id='windBtn-myth3' class ='windBtn'>Myth3</button>");
 
 //toggle button for the wind economics display
 $("#windBtn-economics").click(function(){
@@ -357,28 +357,28 @@ $("#windBtn-myth3").click(function(){
 })
 
 //add buttons for nuclear display
-$("#nuclear-intro").append("<button id='nuclearBtn-economics' class ='button'>Economics</button>");
-$("#nuclear-intro").append("<button id='nuclearBtn-challenges' class ='button'>Challenges</button>");
-$("#nuclear-intro").append("<button id='nuclearBtn-myths' class ='button'>Myths</button>");
+$("#nuclear-intro").append("<button id='nuclearBtn-economics' class ='nuclearBtn'>Economics</button>");
+$("#nuclear-intro").append("<button id='nuclearBtn-challenges' class ='nuclearBtn'>Challenges</button>");
+$("#nuclear-intro").append("<button id='nuclearBtn-myths' class ='nuclearBtn'>Myths</button>");
 
 //add horizontal rules for nuclear displays
 $("#nuclear").find("h3").before("<hr>");
 $("#nuclear").find("hr").css({"border-color": "#0BE700", "border-width": "1px", "border-style": "solid"});
 
 //add subordinate buttons for the nuclear economics display
-$("#nuclear-cost").before("<button id='nuclearBtn-cost' class ='button'>Cost</button>");
-$("#nuclearBtn-cost").after("<button id='nuclearBtn-materials' class ='button'>Materials</button>");
-$("#nuclearBtn-materials").after("<button id='nuclearBtn-land' class ='button'>Land</button>");
+$("#nuclear-cost").before("<button id='nuclearBtn-cost' class ='nuclearBtn'>Cost</button>");
+$("#nuclearBtn-cost").after("<button id='nuclearBtn-materials' class ='nuclearBtn'>Materials</button>");
+$("#nuclearBtn-materials").after("<button id='nuclearBtn-land' class ='nuclearBtn'>Land</button>");
 
 //add subordinate buttons for the nuclear challenges display
-$("#nuclear-challenge1").before("<button id='nuclearBtn-challenge1' class ='button'>Challenge1</button>");
-$("#nuclearBtn-challenge1").after("<button id='nuclearBtn-challenge2' class ='button'>Challenge2</button>");
-$("#nuclearBtn-challenge2").after("<button id='nuclearBtn-challenge3' class ='button'>Challenge3</button>");
+$("#nuclear-challenge1").before("<button id='nuclearBtn-challenge1' class ='nuclearBtn'>Challenge1</button>");
+$("#nuclearBtn-challenge1").after("<button id='nuclearBtn-challenge2' class ='nuclearBtn'>Challenge2</button>");
+$("#nuclearBtn-challenge2").after("<button id='nuclearBtn-challenge3' class ='nuclearBtn'>Challenge3</button>");
 
 //add subordinate buttons for the nuclear myths display
-$("#nuclear-myth1").before("<button id='nuclearBtn-myth1' class ='button'>Myth1</button>");
-$("#nuclearBtn-myth1").after("<button id='nuclearBtn-myth2' class ='button'>Myth2</button>");
-$("#nuclearBtn-myth2").after("<button id='nuclearBtn-myth3' class ='button'>Myth3</button>");
+$("#nuclear-myth1").before("<button id='nuclearBtn-myth1' class ='nuclearBtn'>Myth1</button>");
+$("#nuclearBtn-myth1").after("<button id='nuclearBtn-myth2' class ='nuclearBtn'>Myth2</button>");
+$("#nuclearBtn-myth2").after("<button id='nuclearBtn-myth3' class ='nuclearBtn'>Myth3</button>");
 
 //toggle button for the nuclear economics display
 $("#nuclearBtn-economics").click(function(){

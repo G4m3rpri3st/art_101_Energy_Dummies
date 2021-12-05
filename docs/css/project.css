@@ -52,6 +52,11 @@ body::after {
   text-align: center;
 }
 
+#solar-intro {
+  max-width: 60%;
+  margin: auto;
+}
+
 #wind {
   color: #446D6B;
   background-color: #FAFFFE;
@@ -62,6 +67,11 @@ body::after {
   margin: auto;
   margin-top: 3%;
   text-align: center;
+}
+
+#wind-intro {
+  max-width: 60%;
+  margin: auto;
 }
 
 #nuclear {
@@ -76,15 +86,80 @@ body::after {
   text-align: center;
 }
 
+#nuclear-intro {
+  max-width: 60%;
+  margin: auto;
+}
+
 #authors {
   padding: 15px;
   margin: 3%;
   text-align: center;
 }
 
-.button {
-  margin-left: 1%;
-  margin-right: 1%;
+.icon {
+  height: 15%;
+  width: 15%;
+}
+
+.solarBtn {
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 12px;
+  color: #D89400;
+  background-color: #EEEEEE;
+  border: 2px solid #FFAC00;
+  font-size: 16px;
+  transition-duration: 0.25s;
+}
+
+.solarBtn:hover {
+  background-color: #FFAC00;
+  color: #FFFFFF;
+}
+
+.solarBtn:active {
+  opacity: 0.7;
+}
+
+.windBtn {
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 12px;
+  color: #446D6B;
+  background-color: #EEEEEE;
+  border: 2px solid #446D6B;
+  font-size: 16px;
+  transition-duration: 0.25s;
+}
+
+.windBtn:hover {
+  background-color: #446D6B;
+  color: #FFFFFF;
+}
+
+.windBtn:active {
+  opacity: 0.7;
+}
+
+.nuclearBtn {
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 12px;
+  color: #09C300;
+  background-color: #EEEEEE;
+  border: 2px solid #0BE700;
+  font-size: 16px;
+  transition-duration: 0.2s;
+}
+
+.nuclearBtn:hover {
+  background-color: #0BE700;
+  color: #FFFFFF;
+}
+
+.nuclearBtn:active {
+  opacity: 0.7;
 }
 
 .row {
